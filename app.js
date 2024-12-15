@@ -51,8 +51,8 @@ function calculateTip() {
 function reset() {
     document.querySelector('#bill').value = 0;
     document.querySelector('#people').value = 1;
-    document.querySelector('.tip').innerText = '0.00$';
-    document.querySelector('.total').innerText = '0.00$';
+    document.querySelector('.tip').innerText = '$0.00';
+    document.querySelector('.total').innerText = '$0.00';
     tipPercentage = 0;
     document.querySelector('#custom').value = '';
     document.querySelector('.reset').style.backgroundColor = 'hsla(172, 58%, 50%, 0.269)';
